@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* CSS Document for ITI568 */
+
+body {
+	margin: 0px;
+	color: #0B0A6C;
+	font-size: 12px;
+	font-family: Arial;
+	font-family: Arial, Verdana, Univers;
+	background-color: #ECECED;
+}
+
+h1 {
+	color: #25476C;
+	font-size: 28px;
+	font-weight: 600;
+	margin: 3px 0px 25px 0px;
+}
+h2 {
+	color: #214265;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px 0px 15px 0px;
+}
+h2.centre {
+	color: #214265;
+	float: inherit
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px 0px 15px 0px;
+}
+h3 {
+	color: #244669;
+	font-size: 16px;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+p {
+	font-size: 14px;
+	margin-top: 6px;
+	margin-right: 0px;
+	margin-bottom: 18px;
+	margin-left: 0px;
+}
+p.ind {
+	font-size: 14px;
+	margin-top: 6px;
+	margin-right: 50px;
+	margin-bottom: 18px;
+	margin-left: 30px;
+}
+li {
+    display: list-item;
+	font-size: 14px;
+	margin-top: 4px;
+}
+ul {
+ list-style-type: square;
+ list-style-position: outside;
+ list-style-image: none;
+	margin-bottom: 24px;
+}
+a          {
+	font-size: 14px;
+	color: #36C;
+}
+a:visited  { color: black; }
+a:hover    { color: #5872f4; }
+
+.container {
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* BANNER AREA */
+.bannerArea {
+	width: 100%;height: 83px;
+	background-color: #4971a2;
+}
+
+.bannerArea .container {
+	width: 980px;
+	height:83px;
+	background-image: url(images/banner_bkgd.jpg);
+	background-repeat: no-repeat;
+}
+
+.bannernav {
+	padding-top: 20px;
+	float: right;
+	color: #112c4c;
+	font-size: 10px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.bannernav a { color: #ffffff; text-decoration: none; }
+.bannernav a:visited { color: #ffffff; }
+.bannernav a:hover { color: #112c4c; text-decoration: none; }
+
+.toplogo {
+	padding-left: 30px;
+	padding-top: 5px;
+}
+
+
+/* TOP NAVIGATION AREA */
+.topnavigationArea {
+	background-image: url(images/topnav_bkgd.jpg);
+	background-repeat:repeat-x;
+	background-color: #436d9c;
+}
+.topnavigationArea .container {
+	background-image: url(images/topnav_bkgd.jpg);
+	background-repeat:repeat-x;
+	background-color: #436d9c;
+	width: 980px;
+}
+
+.topnavigationgroup {
+	margin: 0px;
+	float: center;
+	padding-right: 1px;
+}
+.topnavigationgroup ul {
+	margin: 0px;
+}
+
+.topnavigationitem {
+	max-width: 167px;
+	margin-left: 0px;
+	padding-left: 10px;
+	padding-top: 9px;
+	padding-right: 10px;
+	padding-bottom: 9px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: none;
+	border-right-width: 1px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	float: left;
+}
+
+/* CONTENT AREA */
+.contentArea {
+	width: 100%;
+	background-color: #f0eff0;
+	background-image: url(images/content_bkgd_tile.jpg);
+	background-repeat: repeat-x;
+}
+
+
+.contentArea .container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-repeat: no-repeat;
+	background-color: #f2f2f2;
+}
+
+.contentleft {
+	width: 650px;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+.contenttop {
+	width: 650px;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+}
+
+.contentright {
+	padding-top: 20px;
+	float: left;
+	padding-left: 30px;
+	width: 210px;
+}
+
+.imageright {	
+	margin-left: 5px;
+	float: right;
+}
+.imageright2 {	
+	float: center;
+}
+
+
+/* FOOTER AREA */
+.footerArea {
+	width: 100%;
+	background-color: #cfcfcf;
+	background-image: url(images/footer_bkgd.jpg);
+	background-repeat: repeat-x;
+}
+
+.footerArea .container {
+	height: 77px;
+	background-image: url(images/footer_bkgd.jpg);
+	background-repeat: repeat-x;
+}
+
+.copyright {
+	padding-left: 40px;
+	padding-top: 12px;
+	color: #666666;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+/* Lower Images */
+
+.lowerImages {
+	margin:20px 10px 0px;
+	background-color: #f2f2f2;
+}
+
+.imageUnit {
+	padding-left: 30px;
+	text-align: left;
+	background-color: #f2f2f2;
+	}
+
+.imageUnit img {
+	width:930px;
+}
+
+.topicNav {
+	text-align: center;
+	width:24.5%;
+	display: inline-block;
+}
+
+.topicNav img {
+	width:75%;
+}
+
